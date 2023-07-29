@@ -1,0 +1,131 @@
+https://code.visualstudio.com/ >Install
+https://nodejs.org/en > Install
+https://git-scm.com/downloads > Install
+https://github.com/ > Signup
+https://github.com/Aakashdeveloper > Follo
+
+//Prerequest
+Html
+CSS
+Basic JavaScript
+(ifelse,function,loop,array,object,variable)
+
+Npm
+
+React = 3
+Mock API> Dummy Api
+json-server
+React_hooks -1
+React-GraphQL-1
+HOC
+loginapp
+Github
+Deployment
+-> MERN
+-> Netlify
+-> Aws
+-> Docker
+-> Nginx
+React-Redux =1
+Basic React Native=1
+Testing Jest Enzime
+///////Walkthrough///////
+React-Saga -1
+
+--------NOT Backend--------------
+API
+> GraphQL
+> Login/Logout
+> Zomato
+
+
+244562
+
+npm
+> node package manager
+
+JSON
+JavaScript Object notation
+Way to represent the data
+Key:value pair of data
+
+var movieName = "Avengers"
+var movieRating = 4.5
+var movieInd = "Hollywood"
+
+var movieName1 = "Death Race"
+var movieRating1 = 4.2
+var movieInd1 = "Hollywood"
+
+var movies = [
+    {
+        "movieName": "Avengers",
+        "movieRating": 4.5,
+        "movieInd" : "Hollywood"
+    },
+    {
+        movieName: "Death Race",
+        movieRating: 4.2,
+        movieInd : "Hollywood",
+        movieType: "Action"
+    }
+]
+
+movies[0].movieName
+
+//////////////////////
+Package.json
+> Starting point of app
+> packages that is required for app
+> scripts (start,build,test)
+> meta data(name,version,description)
+
+//step to generate Package.json
+*NodeJs must be install
+> open the cmd / terminal and go inside the folder
+> npm init
+> answer all questions
+> type yes
+
+
+//step to install Packages
+*NodeJs must be install
+> open the cmd / terminal and go inside the folder
+> npm install packagename/ npm i packagename
+  npm i packagename@1.4.4
+
+
+package-lock.json
+> contains dependency tree
+
+.gitignore
+> ignore the thing we don't want to push
+
+
+//////////
+step to generate react app
+/////////
+* One Time
+# window
+> open cmd as admin
+> npm i -g create-react-app
+
+* Next everytime you want to generate new app
+> open cmd 
+> go inside the folder where you want new app
+> create-react-app appname
+
+# Mac/linux
+> open terminal
+> sudo npm i -g create-react-app
+
+* Next everytime you want to generate new app
+> open terminal 
+> go inside the folder where you want new app
+> create-react-app appname
+
+-----------------------
+* with npx
+> open cmd/terminal
+> go inside the folder where you want new app
+> npx create-react-app appname
