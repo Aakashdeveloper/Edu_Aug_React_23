@@ -1,0 +1,15 @@
+import React from 'react';
+import ReactDOM from 'react-dom'
+
+const App = () => {
+  return (
+    <div>
+      <h1>HII FROM REACT</h1>
+      <h2>TEST TAG</h2>
+    </div>
+   
+  )
+}
+
+
+ReactDOM.render(<App/>,document.getElementById('root'))

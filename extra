@@ -2,7 +2,15 @@ https://code.visualstudio.com/ >Install
 https://nodejs.org/en > Install
 https://git-scm.com/downloads > Install
 https://github.com/ > Signup
-https://github.com/Aakashdeveloper > Follo
+https://github.com/Aakashdeveloper > Follow
+
+//Extensions
+> code spell checker
+> git history
+> git lens
+> vscode-icons
+> ES7+ React/Redux/React-Native snip
+
 
 //Prerequest
 Html
@@ -129,3 +137,87 @@ step to generate react app
 > open cmd/terminal
 > go inside the folder where you want new app
 > npx create-react-app appname
+
+
+//////////
+step to run react app
+/////////
+> open cmd / terminal
+> go inside the folder where you app
+> npm start
+* default port 3000
+
+react > Main Package of the app
+react-dom > help to render the content
+react-script > help to run the application
+
+
+React
+> React is frontend lib which help to build single page application using component
+based structure
+
+
+component
+* Class
+> Logical Component
+> Can have state
+> Can also use for display purpose
+
+* functional
+> dumb component
+> only use for display purpose
+
+
+> Hooks Component
+
+////////////////
+State
+> it act like a local variable
+> every component can have its own state
+> We can update the value of state
+> With every state change component will re-render
+
+Props
+> Help to transfer the data between the components
+> Data Can only Transfer between the nested components
+
+
+
+
+Es5
+> Ecma Script 5
+Es6
+> Ecma Script 6
+
+
+//es5
+function add(a,b){
+    return a+b
+}
+
+add(1,2)
+3
+
+//es6
+const add = (a,b) => {
+    return a+b
+}
+
+
+
+function add(a,b){
+    let data = [a,b]
+    return data
+}
+
+add(1,2)
+
+
+id
+class
+tagName
+
+////JavaScript
+map
+filter
+indexof
