@@ -221,3 +221,63 @@ tagName
 map
 filter
 indexof
+
+
+
+var a = [0,1,2,3]
+a.map((data) => {return data*2})
+[0, 2, 4, 6]
+
+
+var a = [10,9,5,3,6,1,7]
+a.filter((data) => {return data>5})
+ [10, 9, 6, 7]
+
+
+var a = [0,1,2,3]
+a.filter((data) => {return data*2})
+[1, 2, 3]
+
+
+var a =10
+
+a>10
+a<=1
+a!=1
+
+
+if(a>10){
+
+}else{
+    
+}
+
+if(true){
+
+}else{
+    
+}
+
+
+parent > child (Props)
+child > parent (props with function)
+
+function add(a,b){
+    return a+b
+}
+
+
+add(1,2)
+
+var city = ["Delhi","AmsterDam","London","Venice"]
+undefined
+city.indexOf('Delhi')
+0
+city.indexOf('London')
+2
+city.indexOf('Venice')
+3
+city.indexOf('Innsburg')
+-1
+city.indexOf('Pune')
+-1
