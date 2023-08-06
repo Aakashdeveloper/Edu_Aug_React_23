@@ -1,0 +1,67 @@
+/* Footer Css */
+footer{
+    margin-top:2%;
+    text-align:center;
+    background-color: #3b2632;
+    color:white
+}
+ul{
+    list-style: none;
+}
+
+.footdiv{
+    width:33%;
+    float: left;
+    border-right: 1px solid white;
+}
+
+.noBorder{
+    border:none
+}
+
+.socialFoot{
+    text-align: center;
+}
+
+
+@media screen and (max-width:1600px){
+    body{
+        background-color:rgb(247, 197, 204)
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color:rgb(199, 235, 240)
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color:rgb(193, 236, 210)
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color:rgb(244, 210, 199)
+    }
+    .tileContainer{
+        width:45%
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color:rgb(243, 242, 200)
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color:rgb(195, 219, 245)
+    }
+    .tileContainer{
+        width:90%
+    }
+}
