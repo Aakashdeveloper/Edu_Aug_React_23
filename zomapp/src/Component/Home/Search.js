@@ -1,8 +1,7 @@
 import React,{Component} from 'react';
 import './Search.css';
 
-const base_url = "http://3.17.216.66:4000"
-
+const base_url = process.env.REACT_APP_BASE_URL
 class Search extends Component{
 
     constructor(){
@@ -50,7 +49,7 @@ class Search extends Component{
 
 
     render(){
-        console.log("inside render")
+        console.log("inside render",base_url)
         return(
             <div className='search'>
                 <div id="logo">

@@ -19,14 +19,13 @@ Basic JavaScript
 (ifelse,function,loop,array,object,variable)
 
 Npm
-
 React = 3
 Mock API> Dummy Api
 json-server
 React_hooks -1
-React-GraphQL-1
-HOC
+
 loginapp
+HOC
 Github
 Deployment
 -> MERN
@@ -34,6 +33,9 @@ Deployment
 -> Aws
 -> Docker
 -> Nginx
+React-GraphQL-1
+
+
 React-Redux =1
 Basic React Native=1
 Testing Jest Enzime
@@ -340,3 +342,21 @@ var b = "my age is "+a
 var a = 10
 var b = `my age is ${a}`
 "my age is 10"
+
+
+test(a){}
+
+
+async function test(){
+    
+}
+
+
+const test = async() => {}
+
+
+let image_gallery= [
+    {"link1":"https://b.zmtcdn.com/data/pictures/chains/3/143/fbc2c4c9e55a3f011c493dda79c399f5.jpg"},
+    {"link2":"https://b.zmtcdn.com/data/pictures/chains/3/143/fbc2c4c9e55a3f011c493dda79c399f5.jpg"},
+      
+    ]
