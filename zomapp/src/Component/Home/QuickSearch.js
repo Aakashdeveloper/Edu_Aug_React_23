@@ -14,7 +14,7 @@ class QuickSearch extends Component{
     }
 
     render(){
-
+      
         return(
             <div className='quickSearch'>
                 <span id="QuickSearchHeading">

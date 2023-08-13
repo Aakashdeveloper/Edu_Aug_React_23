@@ -22,8 +22,8 @@ Npm
 React = 3
 Mock API> Dummy Api
 json-server
+//////////////////////////////
 React_hooks -1
-
 loginapp
 HOC
 Github
@@ -360,3 +360,48 @@ let image_gallery= [
     {"link2":"https://b.zmtcdn.com/data/pictures/chains/3/143/fbc2c4c9e55a3f011c493dda79c399f5.jpg"},
       
     ]
+
+var a = [1,2,2,4,6,2]
+undefined
+a.indexOf(4)
+3
+a.splice(3,0)
+[]
+a
+(6) [1, 2, 2, 4, 6, 2]
+a.splice(3,1)
+[4]
+a
+(5) [1, 2, 2, 6, 2]
+a.splice(1,1)
+[2]
+a.splice(1,1)
+[2]
+a
+(3) [1, 6, 2]
+a.splice(2,1)
+[2]
+a
+(2) [1, 6]
+a.splice(4,1)
+[]
+a
+(2) [1, 6]
+a
+(2) [1, 6]
+a.indexOf(2)
+-1
+a.splice(-1,1)
+[6]
+a
+[1]
+
+//////
+dummy api
+////////////////////////////////
+> open cmd as admin (one time)
+npm i -g json-server
+
+> open cmd
+> go in folder where you have json
+> json-server --watch order.json --port 9112
