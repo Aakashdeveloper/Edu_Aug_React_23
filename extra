@@ -24,19 +24,19 @@ Mock API> Dummy Api
 json-server
 React_hooks -1
 loginapp
-//////////////////////////////
 HOC
-Github
 Deployment
 -> MERN
 -> Netlify
+//////////////////////////////
+Github
+
 -> Aws
 -> Docker
 -> Nginx
 React-GraphQL-1
-
-
 React-Redux =1
+
 Basic React Native=1
 Testing Jest Enzime
 ///////Walkthrough///////
@@ -421,3 +421,11 @@ npm i -g json-server
 
 # UserInfo (GET) => http://3.17.216.66:5000/api/auth/userinfo
 * (Header) => {'x-access-token':'token value from login'}
+
+
+var a = [1,2,3]
+var b = [...a,4,5,6]
+[1,2,3,4,5,6]
+
+
+npm run build

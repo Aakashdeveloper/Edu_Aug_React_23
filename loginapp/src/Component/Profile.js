@@ -57,23 +57,29 @@ function Profile(){
         }
     }
  
-    return(
-        <div className="container">
-            <div className="panel panel-warning">
-                <div className="panel-heading">
-                    <h3>Profile</h3>
-                </div>
-                <div className="panel-body">
-                    {renderData(user)}
-                    {conditionalRender(user)} &nbsp;
-                    <button className="btn btn-danger"
-                    onClick={handleLogout}>
-                        Logout
-                    </button>
+
+    if(sessionStorage.getItem('ltk') === null){
+         navigate('/')
+    }else{
+        return(
+            <div className="container">
+                <div className="panel panel-warning">
+                    <div className="panel-heading">
+                        <h3>Profile</h3>
+                    </div>
+                    <div className="panel-body">
+                        {renderData(user)}
+                        {conditionalRender(user)} &nbsp;
+                        <button className="btn btn-danger"
+                        onClick={handleLogout}>
+                            Logout
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
-    )
+        )
+    }
+    
 }
 
 export default Profile;
