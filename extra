@@ -28,17 +28,17 @@ HOC
 Deployment
 -> MERN
 -> Netlify
+React-Redux =1
+React-GraphQL-1
 //////////////////////////////
-Github
 
+Github
 -> Aws
 -> Docker
 -> Nginx
-React-GraphQL-1
-React-Redux =1
-
 Basic React Native=1
 Testing Jest Enzime
+
 ///////Walkthrough///////
 React-Saga -1
 
@@ -429,3 +429,10 @@ var b = [...a,4,5,6]
 
 
 npm run build
+
+
+////////For Native
+> npm i -g create-react-native-app
+create-react-native-app appname
+
+npm run web
