@@ -6,7 +6,7 @@ git init
 git add .
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://aakashdeveloper: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@github.com/Aakashdeveloper/augzomdelete.git
+git remote add origin https://@github.com/Aakashdeveloper/augzomdelete.git
 git push -u origin main
 
 

@@ -30,17 +30,17 @@ Deployment
 -> Netlify
 React-Redux =1
 React-GraphQL-1
+Basic React Native=1
+Testing Jest Enzime
+///////Walkthrough///////
+React-Saga -1
 //////////////////////////////
 
 Github
 -> Aws
 -> Docker
 -> Nginx
-Basic React Native=1
-Testing Jest Enzime
 
-///////Walkthrough///////
-React-Saga -1
 
 --------NOT Backend--------------
 API
@@ -436,3 +436,43 @@ npm run build
 create-react-native-app appname
 
 npm run web
+
+
+
+function loop(){
+    for(i=0;i<5;i++){
+        console.log(i)
+    }
+}
+
+
+
+
+function * loop(){
+    for(i=0;i<5;i++){
+       yield i
+    }
+}
+undefined
+loop()
+loop {<suspended>}
+let data = loop()
+undefined
+data.next()
+{value: 0, done: false}
+data.next()
+{value: 1, done: false}
+data.next()
+{value: 2, done: false}
+data.next()
+{value: 3, done: false}
+data.next()
+{value: 4, done: false}
+data.next()
+{value: undefined, done: true}
+
+
+docker build . -t imagename
+docker run -p 3000:8000 imagename
+
+https://github.com/Aakashdeveloper/react-interview-questions

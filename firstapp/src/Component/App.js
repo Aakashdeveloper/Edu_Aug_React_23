@@ -3,6 +3,7 @@ import Header from './Header';
 import Footer from './Footer';
 import JSON from './data.json';
 import ProductDisplay from './ProductDisplay';
+import Orders from './Order'
 
 class App extends Component {
 
@@ -27,6 +28,9 @@ class App extends Component {
       return (
         <>
           <Header userText={(data)=>{this.filterProduct(data)}}/>
+          <hr/>
+          <Orders/>
+          <hr/>
           <ProductDisplay products={this.state.filteredData}/>
           <Footer year="2023" month="Aug"/>
         </>

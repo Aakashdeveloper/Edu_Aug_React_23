@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product test Testing product 1`] = `
+<div
+  className="main"
+>
+  <div
+    className="card"
+  >
+    <img
+      alt="3M 9004IN Particle Respirator Mask"
+      src="https://i.ibb.co/8BJhgK2/r6xkegcloxgn5eq8owwg.jpg"
+    />
+    <div>
+      <h3>
+        3M 9004IN Particle Respirator Mask
+      </h3>
+      <p>
+        box of 10 masks
+      </p>
+      <p>
+        Rs.
+        180
+      </p>
+      <p>
+        Respiratory Care
+      </p>
+    </div>
+  </div>
+  <div
+    className="card"
+  >
+    <img
+      alt="Vogmask Vector Havoc N99CV Mask Large"
+      src="https://i.ibb.co/fHQ8JY4/kclatp7d9dt0dwgu4zkq.jpg"
+    />
+    <div>
+      <h3>
+        Vogmask Vector Havoc N99CV Mask Large
+      </h3>
+      <p>
+        box of 10 masks
+      </p>
+      <p>
+        Rs.
+        200
+      </p>
+      <p>
+        Respiratory Care
+      </p>
+    </div>
+  </div>
+</div>
+`;
